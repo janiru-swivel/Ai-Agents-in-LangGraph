@@ -1,0 +1,84 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+try.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+*.env
+
+# Environment variables and sensitive data
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.secrets
+*.key
+*.pem
+credentials.json
+
+# Database-related
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.backup
+postgresql.conf
+pg_hba.conf
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency lock files (optional, include if you want to track them)
+# requirements.txt
+# Pipfile.lock
+
+# Cache and temporary files
+*.cache
+*.tmp
+*.temp
+tmp/
+
+# Testing and coverage
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.tox/
+
+# LangChain and OpenAI-related
+*.cache/
+*.pickle
+
+# Miscellaneous
+*.swp
+*.swo
+*~
+*.bak
